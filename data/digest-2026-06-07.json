@@ -1,242 +1,257 @@
 [
   {
-    "title": "\"You'll need journalism so distinctive it has its own gravity\": New York Times publisher A.G. Sulzberger on how news organizations can stand up to AI companies",
-    "tldr": "NYT publisher argues news orgs must produce distinctive journalism to survive AI's threat to the public square, calling out the profession's passivity. A strategic manifesto for the AI era of media.",
+    "title": "\"You'll need journalism so distinctive it has its own gravity\": NYT publisher A.G. Sulzberger on how news organizations can stand up to AI companies",
+    "tldr": "Sulzberger's WAN-IFRA keynote argues that distinctiveness — not scale — is the only defense against AI commoditization of journalism. A sharp framing of the differentiation imperative for any content business.",
     "url": "https://www.niemanlab.org/2026/06/youll-need-journalism-so-distinctive-it-has-its-own-gravity-new-york-times-publisher-a-g-sulzberger-on-how-news-organizations-can-stand-up-to-ai/",
     "source": "Nieman Lab",
     "language": "en",
     "fresh": true,
-    "why_fresh": "high-profile strategic argument on AI vs journalism",
-    "angle": "What 'distinctive enough to have its own gravity' means for brand content competing with AI summaries.",
+    "why_fresh": "new strategic framing from a major industry voice",
+    "angle": "What 'gravity' means for brand content: why distinctiveness beats volume in an AI-saturated feed.",
     "score": 92,
     "topic": "media & pr",
     "tags": [
       "corporate narrative",
-      "brand journalism"
+      "brand journalism",
+      "thought leadership"
     ]
   },
   {
-    "title": "GEO six months on: the science is moving in favour of public relations",
-    "tldr": "Waddington revisits generative engine optimization, arguing the risks are clearer and the opportunity bigger than first thought. A grounded take on how PR adapts to AI-driven discovery.",
-    "url": "https://wadds.substack.com/p/geo-six-months-on-the-science-is",
-    "source": "Wadds (S. Waddington)",
-    "language": "en",
-    "fresh": true,
-    "why_fresh": "evolving evidence on GEO/PR shift",
-    "angle": "GEO as the new SEO: how comms teams should restructure content for AI answer engines.",
-    "score": 88,
-    "topic": "performance & analytics",
-    "tags": [
-      "semantic search optimization",
-      "share of voice"
-    ]
-  },
-  {
-    "title": "Social media is now three distinct categories",
-    "tldr": "Researchers argue platforms have split into broadcasters, micro-communities, and AI-driven active experiences. A reframing of social strategy beyond the old feed model.",
-    "url": "https://mediacat.uk/social-media-now-three-distinct-categories/",
-    "source": "MediaCat UK",
-    "language": "en",
-    "fresh": true,
-    "why_fresh": "new framework for social fragmentation",
-    "angle": "Rebuilding a social media strategy around the broadcaster/micro-community/AI split.",
-    "score": 86,
-    "topic": "media & pr",
-    "tags": [
-      "social media strategy",
-      "digital community building"
-    ]
-  },
-  {
-    "title": "The #1 Role Your Content Team Needs in 2026 Is a Managing Editor",
-    "tldr": "As AI makes content cheap, editorial judgment becomes the differentiator — making the managing editor the key hire. A clear argument about where human value sits now.",
-    "url": "https://contently.com/2026/04/27/the-1-role-your-content-team-needs-in-2026-is-a-managing-editor/",
+    "title": "The Future of Content Belongs to the Tastemakers",
+    "tldr": "Argues that with AI making polished copy trivial, editorial taste and curation become the real differentiator. Directly useful for Igor's thinking on content value post-AI.",
+    "url": "https://contently.com/2026/03/20/the-future-of-content-belongs-to-the-tastemakers/",
     "source": "Contently Strategist",
     "language": "en",
     "fresh": true,
-    "why_fresh": "role reframing in AI content era",
-    "angle": "Why editorial judgment is the scarcest resource when everyone can generate infinite content.",
-    "score": 85,
+    "why_fresh": "reframes content value around taste, not production",
+    "angle": "Why the scarcest content skill in 2026 is judgment, not output.",
+    "score": 89,
     "topic": "content strategy & ops",
     "tags": [
+      "content strategy",
       "editorial operations",
       "content governance"
     ]
   },
   {
-    "title": "When companies decide to say nothing",
-    "tldr": "Drawing on USC Annenberg's 2026 Global Communication Report, Waddington analyzes when organizations choose to speak out on issues and when silence wins. Data-rich guide to issue management.",
-    "url": "https://wadds.substack.com/p/when-companies-decide-to-say-nothing",
-    "source": "Wadds (S. Waddington)",
-    "language": "en",
-    "fresh": true,
-    "why_fresh": "fresh data on corporate silence",
-    "angle": "The strategic case for staying silent: when brand purpose statements backfire.",
-    "score": 84,
-    "topic": "comms & leadership",
-    "tags": [
-      "issue management",
-      "brand purpose"
-    ]
-  },
-  {
-    "title": "YouTube's AI remix push exposes a looming reckoning for the creator economy",
-    "tldr": "YouTube's Gemini Omni integration surfaces the deep problems generative AI poses for creators' rights and originality. A flashpoint for the creator economy's future.",
-    "url": "https://digiday.com/media/youtubes-ai-remix-push-exposes-a-looming-reckoning-for-the-creator-economy/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "source": "Digiday",
-    "language": "en",
-    "fresh": true,
-    "why_fresh": "new platform AI feature reshaping creators",
-    "angle": "What AI remix means for content ownership and the value of original creator work.",
-    "score": 83,
-    "topic": "media & pr",
-    "tags": [
-      "social media strategy",
-      "short form video"
-    ]
-  },
-  {
-    "title": "Coca-Cola's AI-powered José Mourinho campaign could signal a shift in celebrity partnerships",
-    "tldr": "Coke fronted a series with Mourinho's AI clone instead of the man himself, hinting at a new model for celebrity and influencer deals. A concrete sign of synthetic media going mainstream in brand work.",
-    "url": "https://digiday.com/marketing/coca-colas-ai-powered-jose-mourinho-campaign-could-signal-a-shift-in-celebrity-partnerships/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "source": "Digiday",
-    "language": "en",
-    "fresh": true,
-    "why_fresh": "synthetic celebrity clone in major campaign",
-    "angle": "AI clones of celebrities: the next frontier (and minefield) of brand storytelling.",
-    "score": 82,
-    "topic": "ai & tech",
-    "tags": [
-      "synthetic media",
-      "content personalization"
-    ]
-  },
-  {
-    "title": "How to prepare for more declines in traditional Google search traffic",
-    "tldr": "With AI Overviews reducing clicks, experts share tactics for maintaining visibility as AI supplies the answers. Practical survival guide for content discovery.",
-    "url": "https://www.prdaily.com/how-to-prepare-for-more-declines-in-traditional-google-search-traffic/",
-    "source": "PR Daily",
-    "language": "en",
-    "fresh": false,
-    "why_fresh": "ongoing trend, practical advice",
-    "angle": "Building a content strategy for zero-click search and AI answer engines.",
-    "score": 80,
-    "topic": "content strategy & ops",
-    "tags": [
-      "semantic search optimization",
-      "content lifecycle"
-    ]
-  },
-  {
-    "title": "The emotional impact of working in communications",
-    "tldr": "Waddington's research uncovers the rarely-named emotional weight senior comms work carries. A human angle on the toll of crisis and reputation work.",
-    "url": "https://wadds.substack.com/p/the-emotional-impact-of-working-in",
-    "source": "Wadds (S. Waddington)",
-    "language": "en",
-    "fresh": true,
-    "why_fresh": "under-explored emotional dimension of comms",
-    "angle": "The invisible emotional labor of being a senior communicator in permanent crisis mode.",
-    "score": 78,
-    "topic": "comms & leadership",
-    "tags": [
-      "crisis communications",
-      "change management"
-    ]
-  },
-  {
-    "title": "The Future of Content Belongs to the Tastemakers",
-    "tldr": "With AI making polished copy easy, taste and curation become the real differentiator that makes content memorable. A sharp argument on the new value of editorial point of view.",
-    "url": "https://contently.com/2026/03/20/the-future-of-content-belongs-to-the-tastemakers/",
+    "title": "Your Content Isn't Just Competing With Other Brands Anymore",
+    "tldr": "In AI discovery environments, content competes with AI summaries and answer engines, not just rival brands. Breaks down what that means for SEO and share of voice.",
+    "url": "https://contently.com/2026/01/30/your-content-isnt-just-competing-with-other-brands-anymore/",
     "source": "Contently Strategist",
     "language": "en",
     "fresh": true,
-    "why_fresh": "taste-as-differentiator thesis",
-    "angle": "Why taste, not output, is the content strategist's new competitive moat.",
-    "score": 77,
-    "topic": "storytelling & craft",
+    "why_fresh": "reframes competitive landscape around AI answer engines",
+    "angle": "How to audit your content for the post-search, answer-engine era.",
+    "score": 87,
+    "topic": "content strategy & ops",
     "tags": [
-      "audience psychology",
-      "copywriting frameworks"
+      "semantic search optimization",
+      "content strategy",
+      "share of voice"
     ]
   },
   {
-    "title": "Layoffs don't have to feel inhumane",
-    "tldr": "Argues layoffs are a trust moment, not just a messaging problem, and that employees judge leadership instantly in 2026. A reframe for internal comms and change management.",
-    "url": "https://www.fastcompany.com/91551881/layoffs-dont-have-to-feel-inhumane",
-    "source": "Fast Company",
+    "title": "'Social media is now three distinct categories'",
+    "tldr": "Researchers argue platforms have split into broadcasters, micro-communities, and AI-driven experiences — a structural reframing of social media strategy. Rich fodder for Igor's audience strategy thinking.",
+    "url": "https://mediacat.uk/social-media-now-three-distinct-categories/",
+    "source": "MediaCat UK",
     "language": "en",
-    "fresh": false,
-    "why_fresh": "useful reframe but familiar territory",
-    "angle": "Layoffs as the ultimate test of internal communications and leadership trust.",
-    "score": 74,
-    "topic": "comms & leadership",
-    "tags": [
-      "internal communications",
-      "change management"
-    ]
-  },
-  {
-    "title": "A viral space moment fell in Nutella's lap. Here's how they capitalized.",
-    "tldr": "A floating Nutella jar on an Artemis II broadcast became a brand moment; speed and restraint made it work. A clean case study in real-time reactive marketing.",
-    "url": "https://www.prdaily.com/a-viral-space-moment-fell-in-nutellas-lap-heres-how-they-capitalized/",
-    "source": "PR Daily",
-    "language": "en",
-    "fresh": false,
-    "why_fresh": "newsjacking case study",
-    "angle": "The discipline of reactive marketing: when to pounce and when to step back.",
-    "score": 72,
-    "topic": "media & pr",
-    "tags": [
-      "earned media",
-      "social media strategy"
-    ]
-  },
-  {
-    "title": "Манифест для креаторов",
-    "tldr": "Report from the Shorty Awards on the end of big brands', budgets' and glossy production's monopoly over creative work. A signal of power shifting to independent creators.",
-    "url": "https://www.setters.media/post/shorty-awards-2026-report",
-    "source": "SETTERS Media",
-    "language": "ru",
     "fresh": true,
-    "why_fresh": "creator-power shift from awards stage",
-    "angle": "The death of the glossy production monopoly and what it means for brand content.",
-    "score": 71,
+    "why_fresh": "new taxonomy of social platforms",
+    "angle": "Rebuilding your social strategy around three distinct platform logics.",
+    "score": 86,
     "topic": "media & pr",
     "tags": [
       "social media strategy",
+      "digital community building",
       "audience growth"
     ]
   },
   {
+    "title": "The #1 Role Your Content Team Needs in 2026 Is a Managing Editor",
+    "tldr": "As AI makes production cheap, editorial judgment becomes the scarce asset — making the managing editor the pivotal content-team hire. A clear ops argument.",
+    "url": "https://contently.com/2026/04/27/the-1-role-your-content-team-needs-in-2026-is-a-managing-editor/",
+    "source": "Contently Strategist",
+    "language": "en",
+    "fresh": true,
+    "why_fresh": "new org-design argument for the AI era",
+    "angle": "Why the managing editor is the most undervalued role in the AI content stack.",
+    "score": 84,
+    "topic": "content strategy & ops",
+    "tags": [
+      "editorial operations",
+      "content governance",
+      "content workflow"
+    ]
+  },
+  {
+    "title": "Coca-Cola's AI-powered José Mourinho campaign could signal a shift in celebrity partnerships",
+    "tldr": "Coke replaces the real Mourinho with his AI clone as campaign host — a possible inflection point for synthetic celebrity endorsements. Concrete signal of synthetic media going mainstream.",
+    "url": "https://digiday.com/marketing/coca-colas-ai-powered-jose-mourinho-campaign-could-signal-a-shift-in-celebrity-partnerships/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "source": "Digiday",
+    "language": "en",
+    "fresh": true,
+    "why_fresh": "synthetic celebrity goes mainstream in a major campaign",
+    "angle": "What AI clones of public figures mean for endorsement ethics and brand control.",
+    "score": 83,
+    "topic": "ai & tech",
+    "tags": [
+      "synthetic media",
+      "generative ai",
+      "content personalization"
+    ]
+  },
+  {
+    "title": "Why Duluth trusts AI agents with bidding, but not brand storytelling",
+    "tldr": "Duluth Trading draws a clear line: automate media buying with AI agents, keep humans on the narrative. A useful real-world map of where to deploy AI in content work.",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeGhoMW9HTVFET1UxejFnZEVmelpMZXhZUTF2VTBuVW8ydEw4VDZub2M5NlllNlQ2MUNGYXQwWUhqaVFHbzhqRTJmTXdlUDBadi1ZVFB1ZFpxNWdYdDBSR2VaQ0s3dFBLUzliMWQxOGJod0oxRFA1aGotdjFDOXRWMzg3V0FGYmJURWw3MUhwS2tYcDBWRE5JX3VFXzNJbjZWVDAw?oc=5",
+    "source": "Digiday",
+    "language": "en",
+    "fresh": true,
+    "why_fresh": "clear human/AI division-of-labor case study",
+    "angle": "Drawing the line: which content tasks to automate and which to protect.",
+    "score": 81,
+    "topic": "ai & tech",
+    "tags": [
+      "content automation",
+      "brand journalism",
+      "corporate narrative"
+    ]
+  },
+  {
+    "title": "3 questions to ask before putting your CEO in front of the media during a crisis",
+    "tldr": "FleishmanHillard's Elizabeth Cook on why a crisis is the wrong time to expose CEO weaknesses, and how to decide spokesperson readiness. Practical crisis-comms guidance.",
+    "url": "https://www.prdaily.com/3-questions-to-ask-before-putting-your-ceo-in-front-of-the-media-during-a-crisis/",
+    "source": "PR Daily",
+    "language": "en",
+    "fresh": false,
+    "why_fresh": "solid but routine crisis-comms advice",
+    "angle": "A readiness checklist for deciding whether your CEO should face the cameras.",
+    "score": 78,
+    "topic": "comms & leadership",
+    "tags": [
+      "crisis communications",
+      "executive positioning",
+      "media relations"
+    ]
+  },
+  {
+    "title": "How to prepare for more declines in traditional Google search traffic",
+    "tldr": "With AI Overviews suppressing clicks, experts share tactics for maintaining visibility when AI supplies the answers. Directly relevant to content discovery strategy.",
+    "url": "https://www.prdaily.com/how-to-prepare-for-more-declines-in-traditional-google-search-traffic/",
+    "source": "PR Daily",
+    "language": "en",
+    "fresh": true,
+    "why_fresh": "actionable response to the AI-search traffic shift",
+    "angle": "Building a visibility strategy for a zero-click, AI-answer world.",
+    "score": 80,
+    "topic": "performance & analytics",
+    "tags": [
+      "semantic search optimization",
+      "audience insights",
+      "content attribution"
+    ]
+  },
+  {
+    "title": "Layoffs don't have to feel inhumane",
+    "tldr": "Reframes layoffs from a messaging problem to a trust moment, arguing employee evaluation of leadership is now near-instant. Strong internal-comms and change-management angle.",
+    "url": "https://www.fastcompany.com/91551881/layoffs-dont-have-to-feel-inhumane",
+    "source": "Fast Company",
+    "language": "en",
+    "fresh": true,
+    "why_fresh": "reframes layoffs as a trust/comms problem, not messaging",
+    "angle": "How layoff communications reveal whether leadership can still be trusted.",
+    "score": 79,
+    "topic": "comms & leadership",
+    "tags": [
+      "internal communications",
+      "change management",
+      "employee engagement"
+    ]
+  },
+  {
+    "title": "AI 'content creators' are getting harder to spot",
+    "tldr": "The Verge tracks how AI influencers have become nearly indistinguishable from humans, raising authenticity and disclosure questions for the creator economy.",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators",
+    "source": "The Verge",
+    "language": "en",
+    "fresh": true,
+    "why_fresh": "escalating trend in synthetic creators",
+    "angle": "The authenticity crisis: what happens to trust when you can't tell who's real.",
+    "score": 78,
+    "topic": "ai & tech",
+    "tags": [
+      "synthetic media",
+      "audience psychology",
+      "generative ai"
+    ]
+  },
+  {
+    "title": "Why 'AI Productivity Gains' Is the Wrong Pitch for Every Stakeholder Above You",
+    "tldr": "Argues productivity framing fails to move CMOs, CFOs and legal — and shows how to reframe AI metrics per audience to defend budget and headcount. Smart internal-persuasion playbook.",
+    "url": "https://contently.com/2026/05/11/ai-productivity-gains-wrong-pitch-stakeholders/",
+    "source": "Contently Strategist",
+    "language": "en",
+    "fresh": true,
+    "why_fresh": "audience-specific reframing of AI value",
+    "angle": "How to translate AI value into the language each C-suite stakeholder actually buys.",
+    "score": 77,
+    "topic": "comms & leadership",
+    "tags": [
+      "stakeholder engagement",
+      "executive positioning",
+      "content marketing roi"
+    ]
+  },
+  {
     "title": "AI Is Quietly Destroying Your Best Content",
-    "tldr": "Argues that AI-driven repurposing is diluting brands' best content, with a rule and a quick test to check if you're already losing. Practical caution on automation in content ops.",
+    "tldr": "Gini Dietrich argues AI-driven repurposing dilutes high-value content, and offers a rule plus a quick test to detect the damage. Relevant to content lifecycle and repurposing discipline.",
     "url": "https://spinsucks.com/communication/ai-destroying-your-best-content/",
     "source": "Spin Sucks",
     "language": "en",
     "fresh": true,
-    "why_fresh": "counterintuitive take on AI repurposing",
-    "angle": "When content repurposing via AI erodes quality: governance rules to protect your best work.",
-    "score": 70,
+    "why_fresh": "counterintuitive warning on AI repurposing",
+    "angle": "When repurposing becomes erosion: protecting your flagship content from AI dilution.",
+    "score": 75,
     "topic": "content strategy & ops",
     "tags": [
       "content repurposing",
-      "content decay"
+      "content decay",
+      "content lifecycle"
     ]
   },
   {
-    "title": "Понимание трёх категорий онлайн-разговоров / Understanding the 3 categories of online chatter",
-    "tldr": "Today's news emerges bottom-up from comment sections and social posts rather than top-down from gatekeepers; a single rumor can snowball. A useful framework for media monitoring and issue management.",
-    "url": "https://www.prdaily.com/understanding-the-3-categories-of-online-chatter/",
+    "title": "A viral space moment fell in Nutella's lap. Here's how they capitalized.",
+    "tldr": "A Nutella jar floating past Artemis II astronauts became a viral gift, and the brand's speed and restraint turned it into a model of real-time newsjacking. A neat storytelling case.",
+    "url": "https://www.prdaily.com/a-viral-space-moment-fell-in-nutellas-lap-heres-how-they-capitalized/",
     "source": "PR Daily",
     "language": "en",
     "fresh": false,
-    "why_fresh": "useful framework, conference recap",
-    "angle": "Mapping online chatter to catch issues before they become crises.",
-    "score": 68,
-    "topic": "performance & analytics",
+    "why_fresh": "classic reactive-PR case, not a new idea",
+    "angle": "The discipline of restraint: why stepping out of the spotlight made Nutella's moment work.",
+    "score": 71,
+    "topic": "storytelling & craft",
     "tags": [
-      "media monitoring",
-      "sentiment analysis"
+      "business storytelling",
+      "earned media",
+      "micro content"
+    ]
+  },
+  {
+    "title": "Манифест для креаторов",
+    "tldr": "SETTERS report from the Shorty Awards on the end of big-brand, big-budget, glossy-production monopoly and the rise of creator-driven work. A signal on shifting power in content creation.",
+    "url": "https://www.setters.media/post/shorty-awards-2026-report",
+    "source": "SETTERS Media",
+    "language": "ru",
+    "fresh": true,
+    "why_fresh": "reports a power shift away from polished brand production",
+    "angle": "The end of gloss: what the creator-led production shift means for brand content budgets.",
+    "score": 72,
+    "topic": "media & pr",
+    "tags": [
+      "social media strategy",
+      "short form video",
+      "audience growth"
     ]
   }
 ]
