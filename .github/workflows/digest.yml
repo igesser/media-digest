@@ -1,0 +1,41 @@
+# The "robot" that builds your digest every morning — in GitHub's cloud,
+# so it runs whether your Mac is on or off.
+name: Daily digest
+
+on:
+  schedule:
+    # Times are in UTC. 06:00 UTC ≈ 08:00 Central Europe (summer) / 07:00 (winter)
+    # — comfortably before noon. Change the "6" to shift the time.
+    - cron: "0 6 * * *"
+  workflow_dispatch:        # adds a "Run workflow" button so you can test on demand
+
+permissions:
+  contents: write           # let the robot save the new digest back to the repo
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build the digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python main.py
+
+      - name: Save the new digest back to the repo
+        run: |
+          git config user.name "digest-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data site
+          git commit -m "Daily digest $(date -u +%Y-%m-%d)" || echo "No changes today."
+          git push

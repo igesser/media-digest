@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>news — igor</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --bg:#f7f4f0; --text:#1a1a1a; --muted:#999; --line:#e6e1da; --font:'DM Sans',sans-serif; }
+  html { background:var(--bg); color:var(--text); font-family:var(--font); font-size:18px; line-height:1.55; -webkit-font-smoothing:antialiased; }
+  body { min-height:100vh; padding:48px 56px 80px; max-width:820px; margin:0 auto; position:relative; }
+
+  header { margin-bottom:36px; }
+  h1 { font-size:40px; font-weight:400; letter-spacing:-0.5px; line-height:1.15; }
+  .sub { color:var(--muted); font-size:12px; letter-spacing:0.08em; text-transform:lowercase; margin-top:10px; }
+
+  .filter { position:absolute; top:48px; right:56px; display:flex; gap:8px; font-size:12px; letter-spacing:0.08em; }
+  .filter button { background:none; border:none; cursor:pointer; font:inherit; color:var(--muted); text-transform:lowercase; padding:0; }
+  .filter button.active { color:var(--text); }
+  .filter span { color:var(--muted); }
+
+  .item { padding:26px 0; border-top:1px solid var(--line); }
+  .item:first-of-type { border-top:none; }
+  .meta { font-size:12px; color:var(--muted); letter-spacing:0.04em; text-transform:lowercase; margin-bottom:8px; display:flex; gap:12px; flex-wrap:wrap; }
+  .meta .fresh { color:var(--text); }
+  .title { font-size:21px; font-weight:500; line-height:1.3; }
+  .title a { color:var(--text); text-decoration:none; position:relative; }
+  .title a::after { content:''; position:absolute; left:0; bottom:0; width:0; height:1px; background:var(--text); transition:width 0.2s ease; }
+  .title a:hover::after { width:100%; }
+  .tldr { margin-top:8px; }
+  .angle { margin-top:8px; color:var(--muted); }
+  .angle b { color:var(--text); font-weight:500; }
+  .tags { margin-top:12px; display:flex; gap:6px; flex-wrap:wrap; }
+  .tag { font-size:11px; letter-spacing:0.04em; color:var(--muted); text-transform:lowercase; border:1px solid var(--line); border-radius:999px; padding:2px 10px; }
+  .tag.topic-tag { color:var(--text); border-color:#cfc8be; }
+
+  @media (max-width:700px) { body { padding:36px 24px 60px; } .filter { top:36px; right:24px; } }
+</style>
+</head>
+<body>
+  <nav class="filter">
+    <button data-f="all" class="active">all</button><span>/</span>
+    <button data-f="en">en</button><span>/</span>
+    <button data-f="ru">ru</button>
+  </nav>
+
+  <header>
+    <h1>media digest</h1>
+    <div class="sub">07 june 2026 · 15 picks</div>
+  </header>
+
+  <main>
+    <article class="item" data-lang="en">
+      <div class="meta"><span>Nieman Lab</span><span class="fresh">✨ fresh</span><span>EN</span></div>
+      <div class="title"><a href="https://www.niemanlab.org/2026/06/youll-need-journalism-so-distinctive-it-has-its-own-gravity-new-york-times-publisher-a-g-sulzberger-on-how-news-organizations-can-stand-up-to-ai/" target="_blank" rel="noopener">&quot;You&#x27;ll need journalism so distinctive it has its own gravity&quot;: New York Times publisher A.G. Sulzberger on how news organizations can stand up to AI companies</a></div>
+      <p class="tldr">NYT publisher argues news orgs must produce distinctive journalism to survive AI&#x27;s threat to the public square, calling out the profession&#x27;s passivity. A strategic manifesto for the AI era of media.</p>
+      <p class="angle"><b>angle</b> — What &#x27;distinctive enough to have its own gravity&#x27; means for brand content competing with AI summaries.</p>
+      <div class="tags"><span class="tag topic-tag">media &amp; pr</span><span class="tag">corporate narrative</span><span class="tag">brand journalism</span></div>
+    </article>
+    <article class="item" data-lang="en">
+      <div class="meta"><span>Wadds (S. Waddington)</span><span class="fresh">✨ fresh</span><span>EN</span></div>
+      <div class="title"><a href="https://wadds.substack.com/p/geo-six-months-on-the-science-is" target="_blank" rel="noopener">GEO six months on: the science is moving in favour of public relations</a></div>
+      <p class="tldr">Waddington revisits generative engine optimization, arguing the risks are clearer and the opportunity bigger than first thought. A grounded take on how PR adapts to AI-driven discovery.</p>
+      <p class="angle"><b>angle</b> — GEO as the new SEO: how comms teams should restructure content for AI answer engines.</p>
+      <div class="tags"><span class="tag topic-tag">performance &amp; analytics</span><span class="tag">semantic search optimization</span><span class="tag">share of voice</span></div>
+    </article>
+    <article class="item" data-lang="en">
+      <div class="meta"><span>MediaCat UK</span><span class="fresh">✨ fresh</span><span>EN</span></div>
+      <div class="title"><a href="https://mediacat.uk/social-media-now-three-distinct-categories/" target="_blank" rel="noopener">Social media is now three distinct categories</a></div>
+      <p class="tldr">Researchers argue platforms have split into broadcasters, micro-communities, and AI-driven active experiences. A reframing of social strategy beyond the old feed model.</p>
+      <p class="angle"><b>angle</b> — Rebuilding a social media strategy around the broadcaster/micro-community/AI split.</p>
+      <div class="tags"><span class="tag topic-tag">media &amp; pr</span><span class="tag">social media strategy</span><span class="tag">digital community building</span></div>
+    </article>
+    <article class="item" data-lang="en">
+      <div class="meta"><span>Contently Strategist</span><span class="fresh">✨ fresh</span><span>EN</span></div>
+      <div class="title"><a href="https://contently.com/2026/04/27/the-1-role-your-content-team-needs-in-2026-is-a-managing-editor/" target="_blank" rel="noopener">The #1 Role Your Content Team Needs in 2026 Is a Managing Editor</a></div>
+      <p class="tldr">As AI makes content cheap, editorial judgment becomes the differentiator — making the managing editor the key hire. A clear argument about where human value sits now.</p>
+      <p class="angle"><b>angle</b> — Why editorial judgment is the scarcest resource when everyone can generate infinite content.</p>
+      <div class="tags"><span class="tag topic-tag">content strategy &amp; ops</span><span class="tag">editorial operations</span><span class="tag">content governance</span></div>
+    </article>
+    <article class="item" data-lang="en">
+      <div class="meta"><span>Wadds (S. Waddington)</span><span class="fresh">✨ fresh</span><span>EN</span></div>
+      <div class="title"><a href="https://wadds.substack.com/p/when-companies-decide-to-say-nothing" target="_blank" rel="noopener">When companies decide to say nothing</a></div>
+      <p class="tldr">Drawing on USC Annenberg&#x27;s 2026 Global Communication Report, Waddington analyzes when organizations choose to speak out on issues and when silence wins. Data-rich guide to issue management.</p>
+      <p class="angle"><b>angle</b> — The strategic case for staying silent: when brand purpose statements backfire.</p>
+      <div class="tags"><span class="tag topic-tag">comms &amp; leadership</span><span class="tag">issue management</span><span class="tag">brand purpose</span></div>
+    </article>
+    <article class="item" data-lang="en">
+      <div class="meta"><span>Digiday</span><span class="fresh">✨ fresh</span><span>EN</span></div>
+      <div class="title"><a href="https://digiday.com/media/youtubes-ai-remix-push-exposes-a-looming-reckoning-for-the-creator-economy/?utm_campaign=digidaydis&amp;utm_medium=rss&amp;utm_source=general-rss" target="_blank" rel="noopener">YouTube&#x27;s AI remix push exposes a looming reckoning for the creator economy</a></div>
+      <p class="tldr">YouTube&#x27;s Gemini Omni integration surfaces the deep problems generative AI poses for creators&#x27; rights and originality. A flashpoint for the creator economy&#x27;s future.</p>
+      <p class="angle"><b>angle</b> — What AI remix means for content ownership and the value of original creator work.</p>
+      <div class="tags"><span class="tag topic-tag">media &amp; pr</span><span class="tag">social media strategy</span><span class="tag">short form video</span></div>
+    </article>
+    <article class="item" data-lang="en">
+      <div class="meta"><span>Digiday</span><span class="fresh">✨ fresh</span><span>EN</span></div>
+      <div class="title"><a href="https://digiday.com/marketing/coca-colas-ai-powered-jose-mourinho-campaign-could-signal-a-shift-in-celebrity-partnerships/?utm_campaign=digidaydis&amp;utm_medium=rss&amp;utm_source=general-rss" target="_blank" rel="noopener">Coca-Cola&#x27;s AI-powered José Mourinho campaign could signal a shift in celebrity partnerships</a></div>
+      <p class="tldr">Coke fronted a series with Mourinho&#x27;s AI clone instead of the man himself, hinting at a new model for celebrity and influencer deals. A concrete sign of synthetic media going mainstream in brand work.</p>
+      <p class="angle"><b>angle</b> — AI clones of celebrities: the next frontier (and minefield) of brand storytelling.</p>
+      <div class="tags"><span class="tag topic-tag">ai &amp; tech</span><span class="tag">synthetic media</span><span class="tag">content personalization</span></div>
+    </article>
+    <article class="item" data-lang="en">
+      <div class="meta"><span>PR Daily</span><span>EN</span></div>
+      <div class="title"><a href="https://www.prdaily.com/how-to-prepare-for-more-declines-in-traditional-google-search-traffic/" target="_blank" rel="noopener">How to prepare for more declines in traditional Google search traffic</a></div>
+      <p class="tldr">With AI Overviews reducing clicks, experts share tactics for maintaining visibility as AI supplies the answers. Practical survival guide for content discovery.</p>
+      <p class="angle"><b>angle</b> — Building a content strategy for zero-click search and AI answer engines.</p>
+      <div class="tags"><span class="tag topic-tag">content strategy &amp; ops</span><span class="tag">semantic search optimization</span><span class="tag">content lifecycle</span></div>
+    </article>
+    <article class="item" data-lang="en">
+      <div class="meta"><span>Wadds (S. Waddington)</span><span class="fresh">✨ fresh</span><span>EN</span></div>
+      <div class="title"><a href="https://wadds.substack.com/p/the-emotional-impact-of-working-in" target="_blank" rel="noopener">The emotional impact of working in communications</a></div>
+      <p class="tldr">Waddington&#x27;s research uncovers the rarely-named emotional weight senior comms work carries. A human angle on the toll of crisis and reputation work.</p>
+      <p class="angle"><b>angle</b> — The invisible emotional labor of being a senior communicator in permanent crisis mode.</p>
+      <div class="tags"><span class="tag topic-tag">comms &amp; leadership</span><span class="tag">crisis communications</span><span class="tag">change management</span></div>
+    </article>
+    <article class="item" data-lang="en">
+      <div class="meta"><span>Contently Strategist</span><span class="fresh">✨ fresh</span><span>EN</span></div>
+      <div class="title"><a href="https://contently.com/2026/03/20/the-future-of-content-belongs-to-the-tastemakers/" target="_blank" rel="noopener">The Future of Content Belongs to the Tastemakers</a></div>
+      <p class="tldr">With AI making polished copy easy, taste and curation become the real differentiator that makes content memorable. A sharp argument on the new value of editorial point of view.</p>
+      <p class="angle"><b>angle</b> — Why taste, not output, is the content strategist&#x27;s new competitive moat.</p>
+      <div class="tags"><span class="tag topic-tag">storytelling &amp; craft</span><span class="tag">audience psychology</span><span class="tag">copywriting frameworks</span></div>
+    </article>
+    <article class="item" data-lang="en">
+      <div class="meta"><span>Fast Company</span><span>EN</span></div>
+      <div class="title"><a href="https://www.fastcompany.com/91551881/layoffs-dont-have-to-feel-inhumane" target="_blank" rel="noopener">Layoffs don&#x27;t have to feel inhumane</a></div>
+      <p class="tldr">Argues layoffs are a trust moment, not just a messaging problem, and that employees judge leadership instantly in 2026. A reframe for internal comms and change management.</p>
+      <p class="angle"><b>angle</b> — Layoffs as the ultimate test of internal communications and leadership trust.</p>
+      <div class="tags"><span class="tag topic-tag">comms &amp; leadership</span><span class="tag">internal communications</span><span class="tag">change management</span></div>
+    </article>
+    <article class="item" data-lang="en">
+      <div class="meta"><span>PR Daily</span><span>EN</span></div>
+      <div class="title"><a href="https://www.prdaily.com/a-viral-space-moment-fell-in-nutellas-lap-heres-how-they-capitalized/" target="_blank" rel="noopener">A viral space moment fell in Nutella&#x27;s lap. Here&#x27;s how they capitalized.</a></div>
+      <p class="tldr">A floating Nutella jar on an Artemis II broadcast became a brand moment; speed and restraint made it work. A clean case study in real-time reactive marketing.</p>
+      <p class="angle"><b>angle</b> — The discipline of reactive marketing: when to pounce and when to step back.</p>
+      <div class="tags"><span class="tag topic-tag">media &amp; pr</span><span class="tag">earned media</span><span class="tag">social media strategy</span></div>
+    </article>
+    <article class="item" data-lang="ru">
+      <div class="meta"><span>SETTERS Media</span><span class="fresh">✨ fresh</span><span>RU</span></div>
+      <div class="title"><a href="https://www.setters.media/post/shorty-awards-2026-report" target="_blank" rel="noopener">Манифест для креаторов</a></div>
+      <p class="tldr">Report from the Shorty Awards on the end of big brands&#x27;, budgets&#x27; and glossy production&#x27;s monopoly over creative work. A signal of power shifting to independent creators.</p>
+      <p class="angle"><b>angle</b> — The death of the glossy production monopoly and what it means for brand content.</p>
+      <div class="tags"><span class="tag topic-tag">media &amp; pr</span><span class="tag">social media strategy</span><span class="tag">audience growth</span></div>
+    </article>
+    <article class="item" data-lang="en">
+      <div class="meta"><span>Spin Sucks</span><span class="fresh">✨ fresh</span><span>EN</span></div>
+      <div class="title"><a href="https://spinsucks.com/communication/ai-destroying-your-best-content/" target="_blank" rel="noopener">AI Is Quietly Destroying Your Best Content</a></div>
+      <p class="tldr">Argues that AI-driven repurposing is diluting brands&#x27; best content, with a rule and a quick test to check if you&#x27;re already losing. Practical caution on automation in content ops.</p>
+      <p class="angle"><b>angle</b> — When content repurposing via AI erodes quality: governance rules to protect your best work.</p>
+      <div class="tags"><span class="tag topic-tag">content strategy &amp; ops</span><span class="tag">content repurposing</span><span class="tag">content decay</span></div>
+    </article>
+    <article class="item" data-lang="en">
+      <div class="meta"><span>PR Daily</span><span>EN</span></div>
+      <div class="title"><a href="https://www.prdaily.com/understanding-the-3-categories-of-online-chatter/" target="_blank" rel="noopener">Понимание трёх категорий онлайн-разговоров / Understanding the 3 categories of online chatter</a></div>
+      <p class="tldr">Today&#x27;s news emerges bottom-up from comment sections and social posts rather than top-down from gatekeepers; a single rumor can snowball. A useful framework for media monitoring and issue management.</p>
+      <p class="angle"><b>angle</b> — Mapping online chatter to catch issues before they become crises.</p>
+      <div class="tags"><span class="tag topic-tag">performance &amp; analytics</span><span class="tag">media monitoring</span><span class="tag">sentiment analysis</span></div>
+    </article>
+  </main>
+
+  <script>
+    const buttons = document.querySelectorAll('.filter button');
+    const items = document.querySelectorAll('.item');
+    buttons.forEach(b => b.addEventListener('click', () => {
+      buttons.forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      const f = b.dataset.f;
+      items.forEach(it => { it.style.display = (f === 'all' || it.dataset.lang === f) ? '' : 'none'; });
+    }));
+  </script>
+</body>
+</html>
