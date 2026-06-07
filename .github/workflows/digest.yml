@@ -39,3 +39,21 @@ jobs:
           git add data site
           git commit -m "Daily digest $(date -u +%Y-%m-%d)" || echo "No changes today."
           git push
+
+      - name: Publish to igesser.com/news
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$DEPLOY_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -t ed25519 github.com >> ~/.ssh/known_hosts 2>/dev/null
+          git clone git@github.com:igesser/igesser.github.io.git site-repo
+          mkdir -p site-repo/news
+          cp site/index.html site-repo/news/index.html
+          cd site-repo
+          git config user.name "digest-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add news/index.html
+          git commit -m "Update /news $(date -u +%Y-%m-%d)" || echo "no change"
+          git push
