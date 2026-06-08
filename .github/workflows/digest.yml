@@ -4,10 +4,14 @@ name: Daily digest
 
 on:
   schedule:
-    # Times are in UTC. 06:00 UTC ≈ 08:00 Central Europe (summer) / 07:00 (winter)
-    # — comfortably before noon. Change the "6" to shift the time.
-    - cron: "0 6 * * *"
-  workflow_dispatch:        # adds a "Run workflow" button so you can test on demand
+    # Times are UTC, and deliberately OFF the top of the hour (GitHub delays or
+    # drops on-the-hour schedules under load). Two early attempts give resilience;
+    # both finish before noon Central Europe (noon CEST = 10:00 UTC).
+    #   05:23 UTC ≈ 07:23 CEST  (primary)
+    #   08:17 UTC ≈ 10:17 CEST  (backup — auto-skips if the digest already ran today)
+    - cron: "23 5 * * *"
+    - cron: "17 8 * * *"
+  workflow_dispatch:        # adds a "Run workflow" button so you can run it on demand
 
 permissions:
   contents: write           # let the robot save the new digest back to the repo
@@ -19,20 +23,39 @@ jobs:
       - name: Get the code
         uses: actions/checkout@v6
 
+      # Don't rebuild if today's digest already exists (lets the backup time be a
+      # safety net without doubling cost). A manual run always forces a rebuild.
+      - name: Decide whether to run
+        id: check
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual run — building."
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          elif [ -f "data/digest-$(date -u +%F).json" ]; then
+            echo "Today's digest already exists — skipping."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Set up Python
+        if: steps.check.outputs.run == 'true'
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
       - name: Install dependencies
+        if: steps.check.outputs.run == 'true'
         run: pip install -r requirements.txt
 
       - name: Build the digest
+        if: steps.check.outputs.run == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python main.py
 
       - name: Save the new digest back to the repo
+        if: steps.check.outputs.run == 'true'
         run: |
           git config user.name "digest-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -41,6 +64,7 @@ jobs:
           git push
 
       - name: Publish to igesser.com/news
+        if: steps.check.outputs.run == 'true'
         env:
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         run: |
