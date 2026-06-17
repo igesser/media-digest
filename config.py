@@ -11,8 +11,11 @@ You normally just add/remove lines in those three lists.
 import urllib.parse
 
 
-def google_news(query):
-    """Build a Google News RSS feed URL for any search (a topic, or site:domain)."""
+def google_news(query, days=0):
+    """Build a Google News RSS feed URL for any search (a topic, or site:domain).
+    days>0 limits results to the last N days — keeps the digest fresh."""
+    if days:
+        query = f"{query} when:{days}d"
     q = urllib.parse.quote(query)
     return f"https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
 
@@ -35,6 +38,18 @@ NATIVE_FEEDS = [
     {"name": "Axios",                 "url": "https://api.axios.com/feed/"},
     {"name": "Semafor",               "url": "https://www.semafor.com/rss.xml"},
     {"name": "Spin Sucks",            "url": "https://spinsucks.com/feed/"},
+    # — added June 2026 —
+    {"name": "HubSpot Blog",          "url": "https://blog.hubspot.com/feed"},
+    {"name": "Orbit Media",           "url": "https://www.orbitmedia.com/feed/"},
+    {"name": "Buffer Resources",      "url": "https://buffer.com/resources/feed"},
+    {"name": "Sprout Social",         "url": "https://sproutsocial.com/insights/feed/"},
+    {"name": "Marketing Week",        "url": "https://www.marketingweek.com/feed/"},
+    {"name": "Columbia Journalism Review", "url": "https://www.cjr.org/feed"},
+    {"name": "Social Media Examiner", "url": "https://www.socialmediaexaminer.com/feed/"},
+    {"name": "State of Digital Publishing", "url": "https://www.stateofdigitalpublishing.com/feed"},
+    {"name": "Dense Discovery",       "url": "https://www.densediscovery.com/feed/"},
+    {"name": "Stacked Marketer",      "url": "https://www.stackedmarketer.com/feed/"},
+    {"name": "The Marginalian",       "url": "https://feeds.feedburner.com/brainpickings/rss"},
 ]
 
 # 2) BRIDGED — no usable RSS, so we fetch their stories through Google News.
@@ -44,6 +59,11 @@ BRIDGED_SITES = [
     {"name": "Content Marketing Institute", "domain": "contentmarketinginstitute.com"},
     {"name": "The State of Brand",          "domain": "thestateofbrand.com"},
     {"name": "Think Tank Alert",            "domain": "thinktankalert.com"},
+    {"name": "The Drum",                    "domain": "thedrum.com"},
+    {"name": "Ad Age",                      "domain": "adage.com"},
+    {"name": "Campaign",                    "domain": "campaignlive.com"},
+    {"name": "Reforge",                     "domain": "reforge.com"},
+    {"name": "Morning Brew",                "domain": "morningbrew.com"},
 ]
 
 # 3) DISCOVERY — topic searches that rotate authors/outlets daily. Edit freely.
@@ -52,20 +72,30 @@ DISCOVERY_QUERIES = [
     "content strategy",
     "brand storytelling",
     "media business model",
+    "employee generated content",
+    "media consumption trends",
+    "content marketing case study",
+    "human centered content marketing",
+    "content marketing campaign breakdown",
+    "audience engagement strategy",
 ]
 
 # The collector reads this combined list (built from the three lists above).
 FEEDS = (
     NATIVE_FEEDS
-    + [{"name": s["name"], "url": google_news(f"site:{s['domain']}")} for s in BRIDGED_SITES]
-    + [{"name": f"Discovery · {q}", "url": google_news(q)} for q in DISCOVERY_QUERIES]
+    + [{"name": s["name"], "url": google_news(f"site:{s['domain']}", days=14)} for s in BRIDGED_SITES]
+    + [{"name": f"Discovery · {q}", "url": google_news(q, days=7)} for q in DISCOVERY_QUERIES]
 )
 
 # How many recent articles to pull from EACH feed before the editor ranks them.
-ARTICLES_PER_FEED = 8
+# (Lower now that there are ~36 feeds — keeps volume and cost sensible.)
+ARTICLES_PER_FEED = 6
 
 # How many items the final digest should contain (your "top 10–20").
 DIGEST_SIZE = 15
+
+# Don't repeat any article shown in the last N days — keeps each day's pack fresh.
+FRESH_WINDOW_DAYS = 7
 
 # Which Claude model writes the digest.
 #   claude-opus-4-8 (best) · claude-sonnet-4-6 (cheaper) · claude-haiku-4-5 (cheapest)
@@ -125,3 +155,11 @@ TOPIC_TAGS = {
 # Derived automatically — no need to edit these.
 TOPICS = list(TOPIC_TAGS)                                            # the 6 categories
 PREFERRED_TAGS = [t for tags in TOPIC_TAGS.values() for t in tags]  # all tags, flat
+
+# Themes to push to the TOP — the editor scores stories about these higher.
+PRIORITIES = [
+    "employee generated content",
+    "humanity / human-centered content (people over polish)",
+    "how people consume media and content (media-consumption habits and trends)",
+    "concrete content case studies and campaign breakdowns",
+]

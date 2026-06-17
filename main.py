@@ -16,6 +16,8 @@ from datetime import datetime        # noqa: E402
 from collect import collect_items   # noqa: E402  (import after load_dotenv on purpose)
 from editor import build_digest     # noqa: E402
 from build_page import build_html   # noqa: E402
+from history import drop_seen       # noqa: E402
+from config import DIGEST_SIZE, FRESH_WINDOW_DAYS  # noqa: E402
 
 DATA_DIR = Path(__file__).parent / "data"
 
@@ -34,6 +36,10 @@ def main():
     if not items:
         print("No articles found — check your feed URLs in config.py.")
         return
+
+    before = len(items)
+    items = drop_seen(items, DIGEST_SIZE)
+    print(f"🆕 Freshness filter: {before} collected → {len(items)} not shown in the last {FRESH_WINDOW_DAYS} days")
 
     print("\n🧠 The AI editor is reading and ranking…")
     digest = build_digest(items)

@@ -11,7 +11,7 @@ fixed JSON "shape" (SCHEMA) so we always get clean, predictable data back.
 """
 import json
 import anthropic
-from config import MODEL, DIGEST_SIZE, INTERESTS, TOPICS, TOPIC_TAGS
+from config import MODEL, DIGEST_SIZE, INTERESTS, TOPICS, TOPIC_TAGS, PRIORITIES
 
 # A readable map of Igor's topics → their detailed tags, fed to the editor below.
 TOPIC_MAP_TEXT = "\n".join(
@@ -63,7 +63,9 @@ From the list of articles the user gives you:
 1. Remove duplicates and near-duplicates (same story from different outlets — keep the best single one).
 2. Drop anything off-topic, thin, or purely promotional.
 3. Rank what's left by how interesting and useful it is to Igor.
-4. Return the top {DIGEST_SIZE} (or fewer if there genuinely aren't enough good ones).
+4. Give EXTRA weight to stories about: {", ".join(PRIORITIES)}.
+5. Favour genuinely NEW ideas, trends, and recent stories over evergreen explainers.
+6. Return UP TO {DIGEST_SIZE} items — but freshness and quality beat quantity: return fewer (even just 6–8) rather than padding with weak or stale picks.
 
 For each item you return:
 - tldr: 1–2 crisp sentences on what it says and why it matters. No fluff.
