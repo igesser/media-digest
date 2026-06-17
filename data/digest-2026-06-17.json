@@ -1,81 +1,96 @@
 [
   {
-    "title": "News sites are the new newspapers: People are abandoning them for social media",
-    "tldr": "Across all age groups worldwide, audiences are ditching publishers' sites and apps for social and video platforms, with under-35s leading the exodus. A structural shift that reshapes where content distribution actually happens.",
-    "url": "https://www.niemanlab.org/2026/06/news-sites-are-the-new-newspapers-people-are-abandoning-them-for-social-media/",
-    "source": "Nieman Lab",
+    "title": "Publishing trends for 2026: Tech platforms overtake publishers as global news source",
+    "tldr": "Reuters Institute-style data shows tech platforms and social media have now overtaken publishers as the world's leading news source, driven by youth and AI. A fundamental shift in how people consume news.",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRHE4ZnFndFJXT0lMajZHYkpMRWxlSEw4R1VvRDB5MDJSaW9vd0V5b3Nqc0d3d3J5LUZPX3VpMFJnS3Y3VEdSaHhQaVVDRmtRSm5ucFI0Tnhjc1YzenZfNVg3SVBNT3hvOHNHM1ZyVE1BZWJOb3BVa3F4YUpiNmczbUFLQlJVLUhLTmRVcnVkLTI3OFE?oc=5",
+    "source": "Press Gazette",
     "language": "en",
     "fresh": true,
-    "why_fresh": "data confirming a structural distribution shift",
-    "angle": "Why owned media destinations are losing relevance and what 'distribution-first' content strategy looks like now.",
+    "why_fresh": "major media-consumption shift backed by fresh data",
+    "angle": "What it means for brands when audiences no longer come to publishers — designing for platform-native discovery.",
     "score": 92,
     "topic": "media & pr",
     "tags": [
-      "owned media",
+      "audience growth",
       "social media strategy",
-      "audience growth"
+      "owned media"
     ]
   },
   {
-    "title": "Your Best-Ranked Page Might Be Invisible to Google's AI",
-    "tldr": "Pages ranking in Google's top 10 are often absent from AI Overviews citations, decoupling traditional SEO rank from AI visibility. A fundamental rethink for anyone optimizing content for discovery.",
-    "url": "https://contently.com/2026/06/11/google-ai-overview-citations/",
-    "source": "Contently Strategist",
+    "title": "How should news organizations label their AI use for audiences? New studies suggest some answers",
+    "tldr": "New research breaks down how audiences react to different types and levels of AI use in journalism — disclosure nuance matters more than blanket labels. Practical guidance for content governance.",
+    "url": "https://www.niemanlab.org/2026/06/how-should-news-organizations-label-their-ai-use-for-audiences-new-studies-suggest-some-answers/",
+    "source": "Nieman Lab",
     "language": "en",
     "fresh": true,
-    "why_fresh": "new gap between SEO rank and AI citation",
-    "angle": "How content strategists should redesign pages to be cited by AI, not just ranked by search.",
-    "score": 90,
-    "topic": "ai & tech",
-    "tags": [
-      "semantic search optimization",
-      "content personalization"
-    ]
-  },
-  {
-    "title": "When everyone is a thought leader",
-    "tldr": "AI makes thought leadership trivially easy to produce, so standing out now requires proof, risk, and lived experience that can't be copied. A sharp framing of the post-AI authority problem.",
-    "url": "https://www.prdaily.com/when-everyone-is-a-thought-leader/",
-    "source": "PR Daily",
-    "language": "en",
-    "fresh": true,
-    "why_fresh": "reframes thought leadership in AI saturation",
-    "angle": "The new currency of thought leadership: differentiated proof and point of view in an AI-flooded feed.",
+    "why_fresh": "new studies on AI disclosure and trust",
+    "angle": "A disclosure framework for brand content: when AI labeling builds vs. erodes trust.",
     "score": 88,
     "topic": "comms & leadership",
     "tags": [
-      "thought leadership",
-      "executive positioning",
+      "content governance",
       "corporate narrative"
     ]
   },
   {
-    "title": "LinkedIn's Algorithm Killed Company Pages. Employees Are The Distribution Now.",
-    "tldr": "LinkedIn's algorithm has gutted company page reach, pushing brands to rely on employees as the real distribution channel. Direct implications for employee-generated content and internal comms.",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0SXdvY3JuRXZGY0owdHMxbzVRUWNycnctSlRpNi1wRkE3a0VDUE54ZGpRYms5b0ZkdEtQckpZSnZjbm9DUWJwMFpzWmtnSmFQREJaM0tobloyMTZXM3p2cndUOVFPV3NMcFgwalg2NElyVGRo?oc=5",
-    "source": "thestateofbrand.com",
+    "title": "When everyone is a thought leader",
+    "tldr": "AI has made thought leadership cheap to produce, so standing out now requires proof, risk, and a point of view rooted in lived experience. A timely reframe of executive positioning.",
+    "url": "https://www.prdaily.com/when-everyone-is-a-thought-leader/",
+    "source": "PR Daily",
     "language": "en",
     "fresh": true,
-    "why_fresh": "platform shift forcing EGC strategy",
-    "angle": "Building an employee-advocacy distribution engine now that brand pages are dead on arrival.",
-    "score": 86,
+    "why_fresh": "fresh take on AI commoditizing thought leadership",
+    "angle": "The 'lived-experience premium': why human credibility is the new moat for thought leadership.",
+    "score": 87,
     "topic": "comms & leadership",
     "tags": [
-      "employee generated content",
-      "employee engagement",
-      "social media strategy"
+      "thought leadership",
+      "executive positioning"
+    ]
+  },
+  {
+    "title": "5 Signs Your Financial Content Program Has a Credibility Problem",
+    "tldr": "AI engines and buyers now trust named, credentialed experts over faceless content — five symptoms of a credibility gap and how to fix each. Ties human authority to AI visibility.",
+    "url": "https://contently.com/2026/06/03/5-signs-your-financial-content-program-has-a-credibility-problem/",
+    "source": "Contently Strategist",
+    "language": "en",
+    "fresh": true,
+    "why_fresh": "links E-E-A-T credibility to AI citation",
+    "angle": "Why named human experts are becoming content's competitive edge in the AI-search era.",
+    "score": 85,
+    "topic": "content strategy & ops",
+    "tags": [
+      "content governance",
+      "content strategy"
+    ]
+  },
+  {
+    "title": "Coach unites celebrities, Gen Z storytelling under new brand platform",
+    "tldr": "Coach's &Coach platform, developed with Gen Z input, abandons fixed luxury campaign narratives in favor of co-authorship with audiences. A concrete case study in human-centered, participatory storytelling.",
+    "url": "https://www.marketingdive.com/news/coach-unites-celebrities-gen-z-storytelling-under-new-brand-platform/822999/",
+    "source": "Marketing Dive",
+    "language": "en",
+    "fresh": true,
+    "why_fresh": "co-authorship as a new brand-narrative model",
+    "angle": "Co-authored brand narratives: handing the pen to your audience as a content strategy.",
+    "score": 83,
+    "topic": "storytelling & craft",
+    "tags": [
+      "business storytelling",
+      "brand purpose",
+      "audience psychology"
     ]
   },
   {
     "title": "Substack is launching a sponsorship program",
-    "tldr": "Substack rolled out native brand sponsorships plus 'Creator Kits' to help writers build media kits, hiring its first head of brand sponsorships. A meaningful move in newsletter monetization.",
+    "tldr": "Substack debuts a native sponsorship framework plus 'Creator Kits' for media kits, and hires its first head of brand sponsorships. A meaningful new monetization path for newsletter writers.",
     "url": "https://www.niemanlab.org/2026/06/substack-is-launching-a-sponsorship-program/",
     "source": "Nieman Lab",
     "language": "en",
     "fresh": true,
-    "why_fresh": "new monetization layer for newsletters",
-    "angle": "What Substack's sponsorship play means for newsletter strategy and the brand-creator economy.",
-    "score": 84,
+    "why_fresh": "new creator monetization infrastructure",
+    "angle": "What Substack's sponsorship play signals for newsletter-driven brand publishing.",
+    "score": 80,
     "topic": "media & pr",
     "tags": [
       "newsletter strategy",
@@ -84,83 +99,65 @@
     ]
   },
   {
-    "title": "The #1 Role Your Content Team Needs in 2026 Is a Managing Editor",
-    "tldr": "As AI makes content cheap to produce, editorial judgment becomes the differentiator, making a managing editor the most valuable hire. A clear argument for human governance over content volume.",
-    "url": "https://contently.com/2026/04/27/the-1-role-your-content-team-needs-in-2026-is-a-managing-editor/",
-    "source": "Contently Strategist",
-    "language": "en",
-    "fresh": true,
-    "why_fresh": "reframes team structure for AI era",
-    "angle": "Why editorial judgment is the scarce resource in an AI content economy.",
-    "score": 83,
-    "topic": "content strategy & ops",
-    "tags": [
-      "editorial operations",
-      "content governance",
-      "content workflow"
-    ]
-  },
-  {
-    "title": "The Scoop: The rise of 'clipping' on social media",
-    "tldr": "'Clipping'—cutting long videos into short shareable segments—is becoming a core PR tactic, with new disclosure risks attached. A practical short-form trend reshaping earned media.",
-    "url": "https://www.prdaily.com/social-media-clipping-pr-disclosure-risks/",
+    "title": "Etsy tells customers to 'Shop Other Jeffs' ahead of Amazon Prime Day",
+    "tldr": "Etsy's campaign cheekily redirects shoppers to non-billionaire 'Jeffs' to counter Prime Day, while a study finds a major trust gap in AI-generated brand messaging. A sharp campaign breakdown plus trust data.",
+    "url": "https://www.prdaily.com/the-scoop-etsy-tells-customers-to-shop-other-jeffs-ahead-of-amazon-prime-day/",
     "source": "PR Daily",
     "language": "en",
     "fresh": true,
-    "why_fresh": "emerging short-form repurposing tactic",
-    "angle": "How clipping turns one asset into many—and the governance risks PR teams ignore.",
-    "score": 80,
-    "topic": "content strategy & ops",
+    "why_fresh": "clever competitive campaign + AI trust study",
+    "angle": "How underdog brands hijack a rival's tentpole moment — and what the AI-message trust gap means.",
+    "score": 79,
+    "topic": "media & pr",
     "tags": [
-      "content repurposing",
-      "short form video",
+      "earned media",
+      "social media strategy"
+    ]
+  },
+  {
+    "title": "Breeze answers upstarts with Facebook photo album",
+    "tldr": "A quick-and-dirty Facebook photo album by Breeze became an unexpected archive of Thai life — low-polish, human content outperforming slick production. A case study in authenticity over polish.",
+    "url": "https://mediacat.uk/breeze-answers-upstarts-with-facebook-photo-album/",
+    "source": "MediaCat UK",
+    "language": "en",
+    "fresh": true,
+    "why_fresh": "low-fi human content as campaign archive",
+    "angle": "People over polish: when a rough Facebook album beats a produced campaign.",
+    "score": 78,
+    "topic": "storytelling & craft",
+    "tags": [
+      "visual storytelling",
+      "employee generated content",
       "micro content"
     ]
   },
   {
-    "title": "Building a tier-1 media map for new media",
-    "tldr": "With 17,000+ media jobs cut in 2025, tier-1 outlets no longer mean what they used to; PR pros must remap influence across newsletters, creators and niche platforms. A timely media relations rethink.",
-    "url": "https://www.prdaily.com/building-a-tier-1-media-map-for-new-media/",
-    "source": "PR Daily",
+    "title": "Culture isn't a campaign, it's the daily reps",
+    "tldr": "Organizational culture is built through daily practice in how people are treated, not announcements, posters, or 'people-first' decks. A sharp internal-comms and employee-engagement reframe.",
+    "url": "https://www.fastcompany.com/91560091/culture-isnt-a-campaign-its-the-daily-reps",
+    "source": "Fast Company",
     "language": "en",
-    "fresh": true,
-    "why_fresh": "redefines media targeting amid contraction",
-    "angle": "How to rebuild your media map when legacy tier-1 outlets lose their reach.",
-    "score": 79,
-    "topic": "media & pr",
+    "fresh": false,
+    "why_fresh": "solid but evergreen culture argument",
+    "angle": "Why internal comms should measure daily 'reps' over campaign launches.",
+    "score": 74,
+    "topic": "comms & leadership",
     "tags": [
-      "media relations",
-      "earned media",
-      "content syndication"
-    ]
-  },
-  {
-    "title": "The Future of Content Belongs to the Tastemakers",
-    "tldr": "With AI making polished copy effortless and forgettable, the differentiator becomes curation and taste. A strong thesis on what survives content commoditization.",
-    "url": "https://contently.com/2026/03/20/the-future-of-content-belongs-to-the-tastemakers/",
-    "source": "Contently Strategist",
-    "language": "en",
-    "fresh": true,
-    "why_fresh": "taste as the post-AI moat",
-    "angle": "Curation and taste as the last defensible content skill when AI writes everything.",
-    "score": 78,
-    "topic": "storytelling & craft",
-    "tags": [
-      "audience psychology",
-      "copywriting frameworks",
-      "narrative transportation"
+      "internal communications",
+      "employee engagement",
+      "change management"
     ]
   },
   {
     "title": "The 4 PR and Marketing Metrics that Matter for AI Visibility",
-    "tldr": "Gini Dietrich argues impressions, reach and AVEs won't survive scrutiny, naming four metrics that actually prove AI visibility. A concrete measurement update for the AI search era.",
+    "tldr": "Gini Dietrich argues impressions, reach, and AVEs won't survive the next budget meeting, and names four metrics that matter for AI visibility in 2026. Direct measurement guidance for the AI-search era.",
     "url": "https://spinsucks.com/communication/pr-marketing-metrics-ai-visibility/",
     "source": "Spin Sucks",
     "language": "en",
     "fresh": true,
-    "why_fresh": "new measurement framework for AI visibility",
-    "angle": "Retiring vanity metrics: measuring share of voice inside AI answers.",
-    "score": 77,
+    "why_fresh": "new metric framework for AI visibility",
+    "angle": "Retiring AVEs: building a measurement model fit for AI-driven discovery.",
+    "score": 73,
     "topic": "performance & analytics",
     "tags": [
       "communication metrics",
@@ -169,84 +166,84 @@
     ]
   },
   {
-    "title": "Why 'AI Productivity Gains' Is the Wrong Pitch for Every Stakeholder Above You",
-    "tldr": "Pitching AI as productivity gains fails to move CMOs, CFOs and legal; the metric must be reframed per audience to defend budget and headcount. Practical stakeholder communication tactics.",
-    "url": "https://contently.com/2026/05/11/ai-productivity-gains-wrong-pitch-stakeholders/",
-    "source": "Contently Strategist",
+    "title": "The Newsground turns to coffee to fund investigative journalism",
+    "tldr": "A new publication updates the classic news-and-coffee ritual for the modern era, bundling coffee sales with investigative journalism funding. A creative business-model and consumption-experience experiment.",
+    "url": "https://www.niemanlab.org/2026/06/the-newsground-turns-to-coffee-to-fund-investigative-journalism/",
+    "source": "Nieman Lab",
     "language": "en",
-    "fresh": false,
-    "why_fresh": "useful but familiar stakeholder-framing advice",
-    "angle": "How to translate AI value into the language each C-suite stakeholder actually rewards.",
-    "score": 74,
-    "topic": "comms & leadership",
+    "fresh": true,
+    "why_fresh": "novel product-bundle revenue model",
+    "angle": "Reinventing the media-consumption ritual: bundling content with everyday habits.",
+    "score": 71,
+    "topic": "media & pr",
     "tags": [
-      "stakeholder engagement",
-      "executive positioning"
+      "corporate publishing",
+      "audience growth"
     ]
   },
   {
-    "title": "OpenAI moves to automate ad creative",
-    "tldr": "OpenAI is moving to automate the creative production advertisers still do by hand, signaling a major shift in who builds ad content. A direct threat-and-opportunity for content and creative teams.",
-    "url": "https://digiday.com/marketing/openai-moves-to-automate-ad-creative/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "source": "Digiday",
+    "title": "How State Farm is using AI to create timely social content during the NBA Finals",
+    "tldr": "State Farm uses AI to produce real-time, reactive social content during the NBA Finals. A concrete case study in AI-powered, moment-driven content ops.",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVXJ5YWhOS1ZWSG90Z3o3eGtkYTQyRW4yUUY0SUJtTEl4MVFjYm5zZHR6eV9sdnkwRDYyQ0ZmZFJYRmp2ejNUeEZVa3JsNGo2WVB2czlac1lUVWFoR0tIeFFZa0pDMEF0SzVrVkRjb2RCVjNYVG84QXhUU0tCY2Jlczc4MmJWVV90Ym1IRzZzRkE?oc=5",
+    "source": "Ad Age",
     "language": "en",
     "fresh": true,
-    "why_fresh": "AI moving into creative production",
-    "angle": "What happens to creative craft and brand consistency when AI generates the ads.",
-    "score": 73,
+    "why_fresh": "real-time AI content production case study",
+    "angle": "Real-time content ops: how AI lets brands react at the speed of live sport.",
+    "score": 70,
     "topic": "ai & tech",
     "tags": [
-      "generative ai",
       "content automation",
-      "synthetic media"
+      "generative ai",
+      "dynamic content"
     ]
   },
   {
-    "title": "The Anti-AI Brand Is Becoming a Real Market Position",
-    "tldr": "Rejecting AI is emerging as a deliberate brand positioning strategy, signaling human craft and authenticity. A fresh angle on brand differentiation amid AI saturation.",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1oRU5BM09CYlRBb09aWnZDaHJmeVFiUHpCMk9maXREQnFHc2h4OXBkS0Z5SnpYbEpJWmhUeWczOEFBYkZXcTJJazhDTll4TnFRMlJ2UTVRRTRwLTJMWGVoamsxdW44X3l5OVFzQ3FGaDU4Y3Z6YUgyMg?oc=5",
-    "source": "thestateofbrand.com",
+    "title": "What marketers get wrong about Gen Alpha",
+    "tldr": "With the oldest Gen Alpha turning 16, Sprout breaks down common misconceptions about how this cohort consumes and engages with content. Useful audience-psychology and media-habits read.",
+    "url": "https://sproutsocial.com/insights/gen-alpha-marketing/",
+    "source": "Sprout Social",
     "language": "en",
     "fresh": true,
-    "why_fresh": "new brand positioning trend",
-    "angle": "Is 'human-made' the next premium brand promise? The rise of anti-AI positioning.",
-    "score": 72,
-    "topic": "comms & leadership",
+    "why_fresh": "emerging-cohort consumption insights",
+    "angle": "Designing content for Gen Alpha's actual media habits, not marketer assumptions.",
+    "score": 68,
+    "topic": "storytelling & craft",
     "tags": [
-      "brand purpose",
-      "corporate narrative"
+      "audience psychology",
+      "audience insights"
     ]
   },
   {
-    "title": "Adapting misinformation strategy for the AI age",
-    "tldr": "AI didn't create misinformation but made it faster and harder to correct; the American Academy of Family Physicians shows what a credible response now requires. A useful crisis/issue management case.",
-    "url": "https://www.prdaily.com/adapting-misinformation-strategy-for-the-ai-age/",
-    "source": "PR Daily",
+    "title": "The web that built your creative business is being dismantled. So what should you do now?",
+    "tldr": "As AI takes over from Google search, the discovery routes that brought creatives work are vanishing — with practical responses. A timely warning on content discoverability.",
+    "url": "https://www.creativeboom.com/tips/the-web-that-built-your-creative-business-is-being-dismantled-so-what-should-you-do-now/",
+    "source": "Creative Boom",
     "language": "en",
-    "fresh": false,
-    "why_fresh": "solid case study, familiar theme",
-    "angle": "Building a rapid-correction playbook for AI-accelerated misinformation.",
-    "score": 70,
-    "topic": "comms & leadership",
+    "fresh": true,
+    "why_fresh": "AI-search disruption to discovery",
+    "angle": "Building owned, direct audience relationships as search and social stop sending traffic.",
+    "score": 67,
+    "topic": "content strategy & ops",
     "tags": [
-      "crisis communications",
-      "issue management"
+      "omnichannel strategy",
+      "semantic search optimization",
+      "audience growth"
     ]
   },
   {
     "title": "Плохие привычки руководителей в 2026 году и как их избежать",
-    "tldr": "SETTERS examines eight key mistakes modern leaders make, from micromanaging steps to failing to manage by results. A practical leadership and internal-comms read for a Russian-speaking audience.",
+    "tldr": "SETTERS examines eight key mistakes modern leaders make, from micromanaging every step to failing to manage by results. A practical leadership and change-management read.",
     "url": "https://www.setters.media/post/leadership-traps-2026",
     "source": "SETTERS Media",
     "language": "ru",
     "fresh": false,
-    "why_fresh": "useful but conventional leadership advice",
-    "angle": "Managing outcomes vs. activity: leadership habits that shape internal communication culture.",
-    "score": 66,
+    "why_fresh": "useful but evergreen leadership advice",
+    "angle": "From control to outcomes: rethinking leadership communication for distributed teams.",
+    "score": 62,
     "topic": "comms & leadership",
     "tags": [
       "change management",
-      "internal communications",
       "employee engagement"
     ]
   }
